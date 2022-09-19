@@ -1,4 +1,44 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sen-serif;
+}
 .App {
-  font-family: sans-serif;
+  
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  height : 100vh;
+}
+.heading{
+  
+  margin-bottom : 10px;
+  
+}
+.parent{
+  height : 300px;
+  width : 75%;
+  background-color :white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius : 5px;
+  box-shadow: inset -5px -5px 12px white,
+    5px 5px 12px rgba(0, 0, 0, .16);
+}
+
+button{
+  outline: none;
+  border : none ;
+  border-radius: 5px;
+  width: 100px;
+    margin: 5px;
+  font-size: 1.5rem;
+  box-shadow: inset -5px -5px 12px white , 5px 5px 12px rgba(0, 0, 0, .16);
+}
+h1{
+  font-size: 3rem;
 }
